@@ -1,0 +1,137 @@
+<inz<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 1 - Client Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2, h3 {
+      color: darkblue;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 6px;
+    }
+    form {
+      margin: 15px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    input, select {
+      margin: 5px 0;
+      padding: 5px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Client Information Page</h1>
+  <hr>
+  <h2>Welcome to Our Portal</h2>
+  <p>
+    Please <b>fill in</b> your details below. <br>
+    This information is <i>kept secure</i> and <u>confidential</u>.
+  </p>
+  <h3>Quick Notes</h3>
+  <ul>
+    <li>Provide correct email</li>
+    <li>Use a strong password</li>
+    <li>Double-check before submitting</li>
+  </ul>
+  <ol>
+    <li>Step 1: Fill details</li>
+    <li>Step 2: Confirm</li>
+    <li>Step 3: Submit</li>
+  </ol>
+
+  <hr>
+  <h2>Our Company</h2>
+  <p>Visit our official website here: 
+    <a href="https://www.example.com" target="_blank">Example.com</a>
+  </p>
+  <p>Here is our logo:</p>
+  <img src="https://via.placeholder.com/150" alt="Company Logo">
+
+  <div class="section">
+    <h2>Client Data Table</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Subscription</th>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>ali@example.com</td>
+        <td>Premium</td>
+      </tr>
+      <tr>
+        <td>Sara</td>
+        <td>sara@example.com</td>
+        <td>Free</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Form with GET Method</h2>
+    <form action="https://httpbin.org/get" method="get">
+      Name: <input type="text" name="name"><br>
+      Email: <input type="email" name="email"><br>
+      Password: <input type="password" name="password"><br>
+
+      Gender: 
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female <br>
+
+      Interests:
+      <input type="checkbox" name="interest" value="coding"> Coding
+      <input type="checkbox" name="interest" value="design"> Design
+      <input type="checkbox" name="interest" value="gaming"> Gaming <br>
+
+      Country:
+      <select name="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select> <br>
+
+      <input type="submit" value="Submit (GET)">
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Form with POST Method</h2>
+    <form action="" method="post">
+      Name: <input type="text" name="name"><br>
+      Email: <input type="email" name="email"><br>
+      Password: <input type="password" name="password"><br>
+
+      Gender: 
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female <br>
+
+      Interests:
+      <input type="checkbox" name="interest" value="coding"> Coding
+      <input type="checkbox" name="interest" value="design"> Design
+      <input type="checkbox" name="interest" value="gaming"> Gaming <br>
+
+      Country:
+      <select name="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select> <br>
+
+      <input type="submit" value="Submit (POST)">
+    </form>
+  </div>
+
+</body>
+</html>
