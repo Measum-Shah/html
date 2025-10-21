@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Measum Shah | Portfolio</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Measum<span>Shah</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- === HOME SECTION === -->
+    <section id="home" class="home-section">
+      <div class="home-container">
+        <div class="home-text">
+          <h1>Hello, I'm <span>Measum Shah</span></h1>
+          <h3>Web Developer | MERN Stack Enthusiast</h3>
+          <p>
+            I love crafting responsive and user-friendly web experiences using modern front-end technologies.
+          </p>
+          <a href="#projects" class="btn-primary">Explore My Work</a>
+        </div>
+        <div class="home-image">
+          <img src="hero.png" alt="Measum Shah" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- === ABOUT SECTION === -->
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I'm a Computer Science student at COMSATS University Islamabad, Vehari Campus.
+        I’m passionate about front-end design, JavaScript frameworks, and exploring how
+        technology can improve user interaction on the web.
+      </p>
+
+      <div class="education">
+        <h3>Education</h3>
+        <ul>
+          <li><strong>BS Computer Science</strong> — COMSATS University Islamabad (2021–2025)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- === SKILLS SECTION === -->
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+        <li>React.js & Vue.js</li>
+        <li>Node.js & Express.js</li>
+        <li>MongoDB (MERN Stack)</li>
+        <li>Responsive Web Design</li>
+        <li>Git / GitHub / VS Code</li>
+      </ul>
+    </section>
+
+    <!-- === PROJECTS SECTION === -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="project1.png" alt="Project 1" />
+          <h3>Job Portal System</h3>
+          <p>A responsive web app built with React and express.js that lets users discover new jobs.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.png" alt="Project 2" />
+          <h3>Donation Website</h3>
+          <p>A Donation Website showcasing my web development journey and projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- === CONTACT SECTION === -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Measum Shah. All Rights Reserved.</p>
+    <a href="#home" class="back-to-top" id="backToTop">↑ Back to Top</a>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
